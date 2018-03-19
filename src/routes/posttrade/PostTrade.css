@@ -1,0 +1,23 @@
+
+@import '../../components/variables.css';
+
+.root {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.container {
+  margin: 30px 30px;
+  padding: 0 0 40px;
+}
+
+.innerGrid > *{
+  padding: 0 0 0 30px;
+  display: inline-block;
+  font-weight: normal;
+  position: relative;
+}
+
+.innerStyle > * {
+  padding: 0 0 0 30px;
+}

@@ -1,0 +1,116 @@
+/**
+ * React Starter Kit (https://www.reactstarterkit.com/)
+ *
+ * Copyright © 2014-present Kriasoft, LLC. All rights reserved.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.txt file in the root directory of this source tree.
+ */
+
+@import '../variables.css';
+
+:root {
+  --brand-color: #277bdb;
+}
+
+.ulnav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 950;
+  width: 100%;
+  height: 70px;
+  background: white;
+  background-color: white;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-origin: padding-box;
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-size: auto auto;
+
+  padding: 0 5rem 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 1px 15px -3px grey;
+  
+}
+
+.logo{
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.logo a{
+  margin: 0;
+  text-decoration: none;
+  font-family: 'Tangerine', cursive;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.5;
+  box-sizing: inherit;
+  touch-action: manipulation;
+  background-color: white transparent;
+  text-transform: none;
+  color: #607d8b
+}
+
+.logo a:hover{
+  touch-action: manipulation;
+  text-decoration: none;
+}
+
+.root {
+  /* background: #6c6c72; */
+  font-family: "Title";
+  color: rgb(255, 255, 255);
+}
+
+.menulist{
+  margin: 0;
+  height: 100%;
+  padding-left: 0;
+  list-style: none;
+  box-sizing: inherit;
+  font-family: "Raleway","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-transform: none;
+  color: #607d8b;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+
+}
+
+.menuitem{
+  padding: 30px 0 0 0;
+  height: 100%;
+  position: relative;
+  padding-right: 5px;
+  display: inline-block;
+  box-sizing: inherit;
+  list-style: none;
+  text-transform: none;
+  line-height: 1.5;
+}
+
+.menuitem a{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1rem;
+  outline: none;
+  text-decoration: none;
+  font-family: "Raleway","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #607d8b;
+  font-size: 1.1rem;
+  font-weight: 103;
+  touch-action: manipulation;
+}
+.menuitem a:hover{
+  touch-action: manipulation;
+  text-decoration: none;
+}
